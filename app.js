@@ -17,7 +17,7 @@ const seedDB = require('./seed')
 const MongoStore = require('connect-mongo');
 
 // const dbURL = process.env.dbURL || 'mongodb://localhost:27017/shopping-app';
-const dbURL = process.env.dbURL
+const dbURL = 'mongodb+srv://200543426:sbAiYR5CHKPovZ9H@ecommerce.1v3bk.mongodb.net/?retryWrites=true&w=majority&appName=Ecommerce'
 
 mongoose.set('strictQuery', true);
 mongoose.connect(dbURL)
