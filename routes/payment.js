@@ -48,7 +48,7 @@ router.post('/payment_gateway/payumoney', isLoggedIn, (req, res) => {
                 }
             );
 
-        if (httpRes && httpRes.statusCode === 200) {
+        if (httpRes.statusCode === 200) {
             res.send(body);
         }
 
